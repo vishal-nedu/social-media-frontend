@@ -128,12 +128,12 @@ v
                         {/* <h2>{vi.video_name}</h2> */}
                         <div className='fc'>
                         <div className='video-header' onClick={()=>navigate(`/userprofile/${vi.userId}`)}>
-                            <img src={`${import.meta.env.VITE_API_URL}/profile-images/${vi.profile_photo}`} className='pfpc rounded-circle'  alt="user-profile" />
+                            <img src={vi.profile_photo} className='pfpc rounded-circle'  alt="user-profile" />
                             <h2>{vi.username}</h2>
                         </div>
                         <h5 className='video-title'>{vi.title}</h5>
                         <video className="feed-video"  ref={(el)=>(videoRefs.current[index]=el)} muted controls controlsList='nodownload'  >
-                             <source src={`${import.meta.env.VITE_API_URL}/usersvideos/${vi.video_path}`}/> 
+                             <source src={vi.video_path}/> 
                         </video>
                          <div className='ls d-flex'>
                          <span className='likebutton' onClick={()=>handlelike(vi.videoId)}>{vi.liked? "❤️":"🤍" }</span>
