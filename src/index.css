@@ -1,0 +1,499 @@
+.title
+{
+   background-color:#A7D8FF ; 
+    height:80px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo
+{
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+}
+
+.end
+{
+  justify-content: end;
+  gap: 40px;
+  margin-left: 200px;
+}
+.main,.lv
+{
+  display:flex;
+  flex-direction: column;
+}
+.feed
+{
+  margin-top: 10px;
+  /* background-color: aquamarine; */
+  max-height: fit-content;
+  display: grid;
+  justify-content: center;
+  margin-left:10% ;
+}
+.tabs
+{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: aquamarine;
+  height: 40px;
+ 
+ 
+
+}
+.video
+{
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.se
+{
+  margin-left: 50px;
+}
+.content
+{
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.channel
+{
+  left: 0;
+  width:16% ;
+   background-color:#FFF8E7;
+  height: fit-content;
+ 
+}
+.cate
+{
+  width:13% ;
+  margin-left: 3.5%;
+  height: fit-content;
+}
+.tb{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.con
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.catl
+{
+  gap: 40px;
+}
+.ch{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fc
+{
+   object-fit: contain;
+  display: flex;
+  flex-direction: column;
+}
+.com
+{
+  margin-left: 10%;
+  width: 200px;
+  height: max-content;
+  align-items: stretch;
+ 
+}
+.feed-video{
+    width: 600px;
+    max-width: 95%;
+
+    max-height: 85vh;
+
+    border-radius: 20px;
+
+    object-fit: contain;
+
+    background-color: black;
+}
+.fl
+{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.usp-video
+{
+    width: 250px;
+    height: 400px;
+
+    border-radius: 20px;
+
+    object-fit: cover;
+
+    background-color: black;
+}
+.qtd
+{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .ttd
+{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+} */
+.proft
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ppc
+{
+  width: 200px;
+  margin-top: 10%;
+}
+.prname
+{
+  margin-left: 10px;
+  margin-bottom: 30%;
+}
+.ach
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.achn
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.achd
+{
+   display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.videos
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+
+}
+.vi
+{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.cat-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}
+
+.cat-btn.active {
+    background-color:springgreen;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.form label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    align-self: flex-start;
+      
+}
+
+.form input {
+    width: 100%;
+    max-width: 350px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+     
+}
+.cred {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+   
+}
+.regi
+{
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-bottom: 30px;
+}
+.log
+{
+  margin-right: 35%;
+}
+.log1
+{
+  margin-right: 5%;
+}
+.qt
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+}
+.tt
+{
+  margin-top: 20%;
+}
+.pro
+{
+  display: flex;
+  flex-direction: column;
+  gap:10%;
+}
+.profi,.profb
+{
+  margin-top: 10%;
+}
+
+.up
+{
+  display: flex;
+  gap: 4%;
+}
+.add
+{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+}
+.upload-section
+{
+  height: 100px;
+  width: 100px;
+  color: blue;
+  display: flex;
+  /* gap:15% */
+}
+.video{
+  margin-top:5%;
+}
+.h,.s,.i
+{
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.vide
+{
+  
+  margin-top:2%;
+  display: flex;
+  
+flex-wrap: wrap;
+ 
+  justify-content: center;
+   gap: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.user-video{
+    width: 3000px;
+    height:300px;
+    max-width: 95%;
+
+    max-height: 95vh;
+
+    border-radius: 20px;
+
+    object-fit: contain;
+
+    background-color: black;
+    margin-bottom: 10px;
+}
+.empty{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.sear
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 39%;
+  margin-right: 45%;
+  margin-top: 5%;
+}
+.bs{
+  margin-top: 30px;
+}
+.user
+{
+  display:none;
+  flex-direction: column;
+  gap: 10%;
+}
+.disus{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 20%; */
+  cursor: pointer;
+    /* gap:20px; */
+    padding:15px;
+    width:400px;
+    border-radius:10px;
+    background:white;
+    margin-bottom:10px;
+}
+
+.usimg
+{
+   width: 100px;
+  margin-top: 5%;
+}
+.usn{
+  margin-left: 50px;
+  margin-top: 20px;
+  /* margin-right: 10%; */
+
+}
+.usdisplay
+{
+  display: flex;
+  flex-direction: column;
+}
+.follow
+{
+  margin-top: 20px;
+  margin-left: 10px;
+  align-items: center;
+}
+.pros
+{
+  margin-left: 45%;
+}
+.achs
+{
+  margin-top: 5%;
+  margin-bottom:5%;
+}
+/* .likes
+{
+  margin-left: 20px;
+  color:red;
+  margin-top: 5px;
+  cursor: pointer;
+} */
+.likebutton
+{
+  background-color: white;
+   margin-top: 5px;
+    margin-left: 20px;
+  cursor: pointer;
+}
+.video-description
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6px;
+  margin-left: 60px;
+}
+.pfpc{
+  width:40px;
+  margin-bottom: 6px;
+  margin-left: 10px;
+
+}
+.video-header{
+  display: flex;
+  align-items: center;
+  gap:10px;
+   cursor: pointer;
+}
+.video-title
+{
+  margin-left:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+ 
+}
+.prnames
+{
+  margin-left: 30px;
+}
+.user-follow
+{
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+.likcount
+{
+  margin-top: 6px;
+  margin-left: 5px;
+}
+.cl
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.discovery-title
+{
+  font-size:32px;
+font-weight:700;
+
+}
+.discovery-content{
+
+  font-size:18px;
+line-height:1.7;
+margin-left: 10px;
+}
