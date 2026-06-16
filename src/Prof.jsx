@@ -39,7 +39,7 @@ function uploadprofile()
   return (
     <>
     <div className='pro'>
-        <img src={`${import.meta.env.VITE_API_URL}/profile-images/${Profi.profile_photo}`} alt="dummy"  className='ppc rounded-circle' />
+        <img src={`${Profi.profile_photo}`} alt="dummy"  className='ppc rounded-circle' />
        <input type="file" accept="image/*" className='profi'id='selectedfile' onChange={(e) => setFile(e.target.files[0])}/>
         <button className='profb' onClick={uploadprofile} >Add/change profile photo</button>
         <h1 className='prname'>{Profi.username}</h1>
@@ -49,5 +49,5 @@ function uploadprofile()
 
   )
 }
-
+//${import.meta.env.VITE_API_URL}/profile-images/
 export default Prof
