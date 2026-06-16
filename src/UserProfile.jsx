@@ -93,7 +93,7 @@ v
   return (
     <>
      <div className='pros'>
-        <img src={`${import.meta.env.VITE_API_URL}/profile-images/${Profi.profile_photo}`} alt="dummy"  className='ppc rounded-circle' />
+        <img src={Profi.profile_photo} alt="dummy"  className='ppc rounded-circle' />
         <h1 className='prnames'>{Profi.username}</h1>
         {
             userid !== id &&
@@ -135,7 +135,7 @@ v
                         <div className='fc'>
                         <h5 className='video-title'>{vi.title}</h5>
                         <video className="usp-video" muted controls controlsList='nodownload'  >
-                             <source src={`${import.meta.env.VITE_API_URL}/usersvideos/${vi.video_path}`}/> 
+                             <source src={vi.video_path}/> 
                         </video>
                          <div className='ls d-flex'>
                           <span className='likebutton' onClick={()=>handlelike(vi.videoId)}>{vi.liked? "❤️":"🤍" }</span>
