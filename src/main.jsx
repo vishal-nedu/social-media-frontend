@@ -25,7 +25,7 @@ const router=createBrowserRouter(
       element:<Day/>
     },
     {
-      path:'/Profile',
+      path:'/profile',
       element:<Profile/>
     }
     ,{
